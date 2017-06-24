@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../font/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of eric meyers reset*/
+
+/* my own site styles */
+header h2 {
+	color: #fff;
+	font-family : Helvetica, Tahoma, "Geneva", sans-serif;
+	text-align: center;
+	padding: 20px;
+	font-size: 2em;
+
+}
+
+
+/* basic site styles*/
+
+body {
+	background-color:  #E8E8E8;
+	background-image: url('../img/concrete_texture.png');
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff; 
+}
+
+/* header styles */
+
+header{
+
+	background-image: url('../img/ocean_background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+
+#logo {
+	background-image: url('../img/ocean_curl_white.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 164px;
+	height: 164px;
+	text-indent: -99999px;
+	border: 0;
+	margin: 20px auto 10px auto;
+
+}
+
+/* navigation styles*/
+
+nav {
+	width: 100%;
+	height: 46px;
+	font-size: 16px;
+	font-family: Helvetica, Tahoma, "Geneva", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: #E0E0E0
+}
+
+nav ul {
+	text-align: left;
+	display: inline;
+	margin: 0;
+	padding: 15px 0 17px 0px;
+	list-style: none;
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 15px 0;
+	background-color: #00BCD4;
+	list-style-type: none;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+
+nav a {
+	text-decoration: none;
+	color: #000;
+	padding: 14px 40px 14px 40px;
+}
+
+nav a:hover {
+	color: #FFF;
+    background-color: lightblue;
+    
+}
+
+
+
+
+
+
+
+
+/*content section */
+
+  {
+	font-family: verdana, arial, sans-serif;
+	font-size: 95%;
+	color: #000;
+	padding: 30px;
+}
+
+
+
+section h2, section h3 {
+
+	font-family : Impact, Tahoma, "Geneva", sans-serif;
+}
+
+section h3 {
+    color: #00BCD4;
+}
+
+/* Firefox only. 1+ 
+.section h3 {
+    color: blue;
+}
+*/
+
+p {
+  display: block;
+    text-align: -moz-left;
+}
+p {
+    display: block;
+    text-align: -moz-center;
+    -moz-margin-before: 20em;
+    -moz-margin-after: 20em;
+    -moz-margin-start: 5px;
+    -moz-margin-end: 1px;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	font-size: 16px;
+	font-family: Helvetica, Tahoma, "Geneva", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: lightblue;
+
+}
+
+
+h1 { 
+    display: block;
+    font-size: 2em;
+
+   
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    padding: 20px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    text-align: -moz-center;
+    text-align: -webkit-left;
+    margin-top: 1.4em;
+    margin-left: 0.8em;
+    margin-right: 0;
+
+
+}
+h3 { 
+    display: block;
+    font-size: 1.17em;
+
+    
+    margin-left: 0.8em;
+    margin-right: 0;
+
+}
+h4 { 
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 1.67;
+    margin-right: 0;
+    font-weight: bold;
+    padding: 20px;
+}
+
+p {
+	padding: 20px;
+}
+
+.img1 {
+	float: left;
+	margin-right: 2em;
+}
+.left {
+	float: left;
+	width: 600px; auto;
+
+}
+.right {
+	background-color: #E0E0E0;
+	float: right;
+    width: 300px;
+    height: 550px;
+    padding: 15px;
+    font-family: 'open_sansregular'; 
+}
+.clearfix {
+	clear: both;
+}
+
+/* making fonts work */
+p {
+font-family: 'open_sansregular';
+
+}
+
+input, textarea {
+	display: block;
+	padding: 10px;
+	margin: 0px 20px 0px;
+	width: 200px;
+	border-radius: 2px;
+
+}
+
+.contact-form {
+	background-color: grey;
+    height: 420px;
+}
+fieldset { 
+    display: block;
+    width: 40%;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove;
+}
+
+@-moz-document url-prefix() {
+    header{
+
+	background-image: url('../img/ocean_background2.jpg');
+}
+    
+    header h2 {
+        
+	font-family :Tahoma, "Geneva", sans-serif;
+	text-align: right;
+	font-size: 4em;
+}
+
+body {
+	background-color:  black;
+	background-image: none;
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: lightgreen; 
+}  
+    nav {
+	height: 49px;
+	font-size: 19px;
+	font-family: Tahoma, "Geneva", sans-serif;
+	font-weight: lighter;
+	text-align: right;
+	background-color: black
+}
+
+nav ul li {
+	background-color: darkgreen;
+}
+
+nav a {
+	color: white;
+}
+
+nav a:hover {
+	color: white;
+    background-color: lightgreen;   
+}
+.img1 {
+	float: left;
+	margin-right: 2em;
+}
+.left {
+	float: left;
+	width: 600px; auto;
+
+}
+.right {
+	background-color: darkgreen;
+    color: white;
+	float: right;
+    width: 320px;
+    height: 560px;
+
+}
+ .contact-form {
+	background-color: black;
+    height: 420px;
+}
+    footer {
+	height: 70px;
+	font-size: 12px;
+	font-family: Tahoma, "Geneva", sans-serif;
+	font-weight:lighter;
+	background-color: darkslategrey;
+
+        
+}
+    h3 {
+        color: green;
+    }   
+    section h2, section h3 {
+
+	font-family:Tahoma, "Geneva", sans-serif;
+}
+
+section h3 {
+    color: green;
+}
+
+}
